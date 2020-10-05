@@ -1,0 +1,4 @@
+RewriteEngine on
+RewriteRule ^education\.html$ http://david.sampson.id.au/work/education.html
+RewriteRule ^index\.html$ http://david.sampson.id.au/work/cv.html
+RewriteRule ^mathworks\.html$ http://david.sampson.id.au/work/mathworks.html

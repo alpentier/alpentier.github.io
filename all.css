@@ -1,0 +1,45 @@
+body {
+  font-size: 1em;
+  font-family: Verdana, sans-serif;
+  color: black;
+  background: white;
+}
+
+div#navbar p {
+  color: black;
+  background: white;
+  margin-bottom: 0px;
+}
+
+div#footer hr {
+  clear: both;
+  margin-bottom: 3px;
+}
+
+div#footer p {
+  margin-top: 0px;
+}
+
+div#footer p img {
+  float: right;
+  border: 0px;
+}
+
+dt {
+  font-weight: bold;
+  margin-top: 1em;
+}
+
+img.thumb {
+  float: right;
+  clear: right;
+  border: 5px solid;
+  border-color: black;
+  margin-left: 5px;
+}
+
+img.icon {
+  float: right;
+  border: 0px;
+  margin-left: 5px;
+}
