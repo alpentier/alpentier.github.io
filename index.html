@@ -4,6 +4,7 @@
 <head>
 
   <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>David Sampson's Web Site</title>
   <meta name="author" content="David Sampson" />
   <meta name="description" content="Personal web site of David Sampson." />
@@ -23,6 +24,15 @@
     "@context": "https://schema.org",
     "@graph": [
       {
+        "@type": "WebSite",
+        "@id": "https://david.sampson.id.au/#website",
+        "url": "https://david.sampson.id.au/",
+        "name": "David Sampson",
+        "publisher": {
+          "@id": "https://david.sampson.id.au/#person"
+        }
+      },
+      {
         "@type": "WebPage",
         "@id": "https://david.sampson.id.au/#webpage",
         "url": "https://david.sampson.id.au/",
@@ -39,11 +49,11 @@
         "@type": "Person",
         "@id": "https://david.sampson.id.au/#person",
         "name": "David Sampson",
-        "url": "https://david.sampson.id.au",
-      "sameAs": [
-        "https://github.com/alpentier",
-        "https://www.linkedin.com/in/djmsampson/"
-      ]
+        "url": "https://david.sampson.id.au/",
+        "sameAs": [
+          "https://github.com/alpentier",
+          "https://www.linkedin.com/in/djmsampson/"
+        ]
       }
     ]
   }
