@@ -43,3 +43,23 @@ img.icon {
   border: 0px;
   margin-left: 5px;
 }
+
+figure.news-photo {
+  margin: 1em 0;
+  max-width: 100%;
+}
+
+figure.news-photo img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+  width: 600px;
+  margin: 0 auto;
+  border: 3px solid black;
+}
+
+figure.news-photo figcaption {
+  font-size: 0.9em;
+  margin-top: 0.4em;
+  text-align: center;
+}
